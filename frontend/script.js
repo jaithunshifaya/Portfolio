@@ -1,23 +1,20 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', () => {
   const toggleButton = document.getElementById('theme-toggle');
   const body = document.body;
 
-  // Load theme from localStorage
+  
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'dark') {
     body.classList.add('dark');
   }
 
-  // Toggle dark mode
+  
   toggleButton.addEventListener('click', () => {
     body.classList.toggle('dark');
     const currentTheme = body.classList.contains('dark') ? 'dark' : 'light';
     localStorage.setItem('theme', currentTheme);
   });
 
-  // Contact form submission (if backend connected)
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {
     contactForm.addEventListener('submit', async (e) => {
