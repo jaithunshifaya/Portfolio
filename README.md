@@ -20,44 +20,6 @@ A modern and responsive full-stack portfolio website built using HTML, CSS, Java
 
 ---
 
-## 📁 Folder Structure
-
-Portfolio/
-
-├── frontend/ # HTML, CSS, JS, Images
-
-│ ├── index.html
-
-│ ├── skills.html
-
-│ ├── experience.html
-
-│ ├── certifications.html
-
-│ ├── contact.html
-
-│ ├── style.css
-
-│ └── script.js
-
-│
-├── backend/ # Node.js server + MongoDB
-
-│ ├── server.js
-
-│ ├── .env # MongoDB URI (excluded via .gitignore)
-
-│ ├── models/
-
-│ │ └── Contact.js
-
-│ └── package.json
-
-│
-└── README.md
-
----
-
 ## ✨ Features
 
 - 🧑‍🎓 **About Me** section with resume download
